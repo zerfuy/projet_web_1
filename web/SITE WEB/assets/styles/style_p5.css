@@ -1,0 +1,173 @@
+a:link{
+text-decoration: none;
+color: white;
+font-family : arial;
+}
+
+a:visited{
+text-decoration: none;
+color: white;
+font-family : arial;
+}
+
+a:hover{
+text-decoration: none;
+color: yellow;
+font-family : arial;
+}
+
+
+.aheader{
+    display : inline;
+	background-size: 100% 100%;
+}
+
+.grande-horizontale{
+	width:65.85%;
+	height:62%;
+}
+
+.grande-verticale{
+	width:32.8%;
+	height:60%;
+}
+
+.moyenne-horizontale{
+	top:3%;
+	width:32.3%;
+	height:20%;
+}
+
+.logo{
+	position:absolute;
+	bottom:0;
+	right:0;
+	height:25%;
+
+}
+
+header h1{
+    color:white;
+	text-align:center;
+	font-size:3.5vh;
+}
+
+h2{
+	text-decoration : underline;
+}
+
+h3{
+	text-decoration : underline;
+}
+
+header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    text-align:center;
+    margin:0;
+    padding-bottom:1%;
+    border-bottom:1px solid white;
+    font-size:1.6vh;
+    height:15%;
+    width:100%;
+	background-image:url("../images/header1.jpg");
+	background-position:center center;
+	background-size: 100% 100%;
+}
+
+li{
+    margin-top: 0.7%;
+    margin-bottom: 0.7%;
+}
+
+.division{
+	background-color: rgba(50,050,050,.7);
+	color : white;
+	border:1px solid white;
+	border-radius:5px;
+    left: 5%;
+    right:5%;
+    padding-left:3%;
+    padding-right:3%;
+    float:none;
+	padding-bottom:1%;
+	padding-top:1%;
+}
+
+body{
+    float:none;
+    position : absolute;
+    top:22%;
+    bottom:5%;
+    left: 5%;
+    right:5%;
+    text-align : justify;
+    font-size : 2vh;
+    width : 90%;
+	word-wrap:break-word;
+	background-image:url("../images/bg1.jpg");
+	background-size: 50% auto;
+}
+
+footer{
+    background-color: rgba(50,050,050,.7);
+    position : relative;
+	color:white;
+    text-align:justify;
+	font-size:1vh;
+    width:100%;
+    bottom:0;
+	border:1px solid white;
+	border-radius:10px;
+	top:3%;
+}
+
+#pied_page p{
+	padding-left:1%;
+	padding-right:1%;
+}
+
+#calendrier{
+    color : white;
+    text-align:justify;
+	width: 80%;
+}
+td {
+    border: 1px solid;
+    width: 5%;
+}
+
+#merci{
+	width:100%;
+}
+
+#formulaire1{
+	border : 1px solid white;
+	border-radius:5px;
+	width : 100%;
+	text-align:center;
+	font-size:2vh;
+}
+
+.tableau{
+    width: 10%;
+}
+
+.li{
+	list-style-type: none;
+}
+
+.li:before {
+    content: "→ ";
+}
+
+.case{
+	width:30%;
+	height:20%;
+}
+
+.grandecase{
+	width:40%;
+	height:20%;
+}
